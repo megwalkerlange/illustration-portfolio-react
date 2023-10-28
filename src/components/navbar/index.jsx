@@ -1,20 +1,24 @@
 import { NavLink } from "react-router-dom";
+// import CSS from "./../navbar/navbar.css";
 
 function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
-        <div className="container-fluid">
-          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div className="navbar-nav">
-              <NavLink to="About">About</NavLink>
-              <NavLink to="Images">Images</NavLink>
-              <NavLink to="Books">Books</NavLink>
-              <NavLink to="Contact">Contact</NavLink>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <ul className="nav nav-underline">
+        <h1 className="nav-item title">Megan Walker-Lange Illustration</h1>
+        <li className="nav-item">
+          <NavLink to="Images">Images</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="Books">Books</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="About">About</NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink to="Contact">Contact</NavLink>
+        </li>
+      </ul>
     </>
   );
 }

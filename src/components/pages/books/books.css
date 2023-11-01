@@ -1,0 +1,45 @@
+
+.card-group{
+padding: 10px;
+   margin: 150px;
+    width:27%;
+    height: 25%;
+    display: inline-block;
+    font-family: 'Mukta', sans-serif
+    }
+
+    .card-body {
+        border-color: white ;
+    }
+.card-group-franny{
+
+    padding: 10px;
+    margin: 150px;
+    width:23%;
+    height: 15%;
+    display: inline-block;
+    font-family: 'Mukta', sans-serif;
+    border-radius: 0px !important;
+}
+
+@media (max-width: 600px) {
+
+    .card-group{
+        padding: 10px;
+           margin: 50px;
+            width:15%;
+            height: 15%;
+            display: inline;
+        
+        }
+
+
+    .card-group-franny{
+
+    padding: 10px;
+    margin: 50px;
+    width:10%;
+    height: 15%;
+    display: inline;
+}
+}

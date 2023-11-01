@@ -5,6 +5,7 @@ import About from "./components/pages/about/index.jsx";
 import Images from "./components/pages/images/index.jsx";
 import Books from "./components/pages/books/index.jsx";
 import Contact from "./components/pages/contact/index.jsx";
+
 // import AliceCarousel from "react-alice-carousel";
 // import "react-alice-carousel/lib/alice-carousel.css";
 

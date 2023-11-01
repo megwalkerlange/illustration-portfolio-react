@@ -1,11 +1,12 @@
 import { NavLink } from "react-router-dom";
-// import CSS from "./../navbar/navbar.css";
+import "./../navbar/navbar.css";
 
 function Navbar() {
   return (
     <>
       <ul className="nav nav-underline">
-        <h1 className="nav-item title">Megan Walker-Lange Illustration</h1>
+        {/* <<h1 className="nav-item title">Megan Walker-Lange Illustration</h1>> */}
+        <img src="src\components\assets\meg-wl-illo-2.png" width="50%"></img>
         <li className="nav-item">
           <NavLink to="Images">Images</NavLink>
         </li>
